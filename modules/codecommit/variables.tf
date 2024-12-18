@@ -10,12 +10,12 @@ variable "create_new_repo" {
   default     = false
 }
 
-variable "source_repository_name" {
+variable "aig-azcdi-us-ops-sustain-api-webapp" {
   type        = string
   description = "Name of the Source CodeCommit repository used by the pipeline"
 }
 
-variable "source_repository_branch" {
+variable "dev" {
   type        = string
   description = "Branch of the Source CodeCommit repository used in pipeline"
 }
